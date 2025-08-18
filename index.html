@@ -1,0 +1,136 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Dressing Room Princess</title>
+<link href="https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Gaegu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Écran d'accueil -->
+  <div class="home-container scene" id="home-screen">
+    <img src ="https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/titreJeu.webp" class="titleLogo">
+    <img src="https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/DressingRoomPrincess/GIf%20intro.gif?raw=true" alt="Titre du jeu" class="title-img">
+
+    <p class="intro-text">
+      Bienvenue dans ce jeu d'habillage.<br>
+      Aide Mina à se préparer pour le bal de ce soir.
+    </p>
+
+    <button class="start-button">Commencer</button>
+  </div>
+  
+<!-- Dialogue d'introduction -->
+<div class="intro-scene scene hidden" id="intro-scene">
+  <div class="mina-container">
+    <img src="" alt="Mina" class="mina-img">
+  </div>
+
+  <div class="text-box">
+    <p id="dialogue-text">Bonjour, merci de venir m'aider à m'habiller !</p>
+    <button id="next-button">➤</button>
+  </div>
+</div>
+  
+  <!-- Dressing room -->
+  <div class="app-container scene hidden" id="dressing-room">
+  
+  <!-- 🌸 Logo -->
+  <header class="logo-header">
+    <img src="https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/dressingRoomApp/Princess-d%C3%A9co-friseruben1.png?raw=true" alt="Logo" class="logo-img">
+  </header>
+
+<!-- 👗 Zone principale -->
+<main class="main-zone">
+  
+  <!-- 🌸 Boutons de catégories (cachés au départ) -->
+  <div class="wardrobe-menu hidden">
+    <button class="wardrobe-category">Cheveux</button>
+    <button class="wardrobe-category">Robe</button>
+    <button class="wardrobe-category">Chaussures</button>
+    <button class="wardrobe-category">Accessoire</button>
+  </div>
+  
+  <div class="model-wardrobe-container">
+    <!-- 👤 Personnage -->
+    <section class="model-zone">
+      <div class="model-container">
+        <img src="https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/dressingRoomApp/Princess-modelPNG.png?raw=true" alt="Personnage" class="layer base">
+      </div>
+    </section>
+
+    <!-- 🧺 Garde-robe -->
+    <section class="wardrobe-zone">
+      <!-- Bouton Ouvrir -->
+      <button id="open-wardrobe" class="open-button">Ouvrir</button>
+      
+      <!-- 🪞 Détail d'une catégorie (caché au départ) -->
+      <div class="wardrobe-detail hidden">
+                <div class="item-grid">
+                </div>
+      </div>
+    </section>
+  </div>
+</main>
+     
+      
+      
+    <!-- 🔘 Boutons d'action -->
+  <footer class="action-buttons">
+    <button>Recommencer</button>
+    <button id="go-ball-button">Aller au Bal</button>
+  </footer>
+      
+  </div>
+  </div>
+  
+  <!-- Pré-bal -->
+  <div class="pre-ball-scene scene hidden" id="pre-ball-scene">
+    <div class="mina-container">
+  <img src="https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/Mina_bubleConv_happy2.webp" alt="Mina" class="mina-img">
+</div>
+
+<div class="text-box">
+  <p id="dialogue-text">Merci infiniment pour ton aide ! J'ai hâte d'arriver au bal.</p>
+  <div class="pre-ball-buttons">
+    <button id="back-to-wardrobe">Dernières retouches</button>
+    <button id="go-final-ball">Aller au bal</button>
+  </div>
+</div>
+  </div>
+
+
+  
+  <!-- Bal final -->
+  <div class="final-ball-scene scene hidden" id="final-scene">
+     
+<div class="congrats-message">
+    <p>👑 Bien Joué ! 👑</p>
+  </div>
+
+  <!-- Modèle et flèches -->
+  <div class="model-section">
+    <button class="prev-bg">←</button>
+    <div class="final-model-container">
+      <img src="https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/dressingRoomApp/Princess-modelPNG.png?raw=true" class="layer base">
+      <img class="layer hair" src="">
+      <img class="layer dress" src="">
+      <img class="layer shoes" src="">
+      <img class="layer accessory" src="">
+    </div>
+    <button class="next-bg">→</button>
+  </div>
+
+  <button class="restart-game">⟳ Recommencer</button>
+  <div class="glitters"></div>
+</div>
+  
+  
+  <!-- musique -->
+  
+  <button id="toggle-music" class="music-toggle">🎵</button>
+
+  <audio id="music-dressing" src="https://github.com/GityLou/ASSETS-Divers---projets-code-/raw/refs/heads/main/DressingRoomPrincess/music_ambiancehabillage.mp3" loop></audio>
+  <script src="script.js"></script>
+  </body>
+</html>
