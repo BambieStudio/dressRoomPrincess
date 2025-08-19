@@ -191,7 +191,7 @@ const wardrobeItems = {
   ],
     accessoire: [
      {
-      preview: "https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/DressingRoomPrincess/princess_accesoire%20(1)preview.png?raw=true",
+      preview: "https://raw.githubusercontent.com/BambieStudio/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(1)preview.webp",
       layer: "https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(1).webp"
     },
     {
@@ -199,11 +199,11 @@ const wardrobeItems = {
       layer: "https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(2).webp",
     },
        {
-      preview: "https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/DressingRoomPrincess/princess_accesoire%20(3)preview.png?raw=true",
+      preview: "https://raw.githubusercontent.com/BambieStudio/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(3)preview.webp",
       layer: "https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(3).webp"
     },
     {
-      preview: "https://github.com/GityLou/ASSETS-Divers---projets-code-/blob/main/DressingRoomPrincess/princess_accesoire%20(4)preview.png?raw=true",
+      preview: "https://raw.githubusercontent.com/BambieStudio/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(4)preview.webp",
       layer: "https://raw.githubusercontent.com/GityLou/ASSETS-Divers---projets-code-/refs/heads/main/DressingRoomPrincess/princess_accesoire%20(4).webp"
     }
   ],
